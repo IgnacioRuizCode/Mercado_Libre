@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+navbar{
+    background-color: #eac926;
+}
+
+.search-box{
+    position: relative;
+    width: 280px;
+}
+
+.search-box input{
+    padding-right: 40px; 
+}
+
+.search-box i{
+    position: absolute;
+    right: 15px;   
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+}
