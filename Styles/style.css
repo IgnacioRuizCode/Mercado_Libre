@@ -25,3 +25,40 @@ navbar{
     color: gray;
     pointer-events: none;
 }
+
+body { 
+    background-color: #ebebeb;;
+}
+
+.beneficios {
+    background-color: #f5f0ff;
+    padding: 20px;
+    border-radius: 12px;
+}
+.beneficios i {
+    color: #6c2bd9;
+}
+
+.img-Card {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin: 8px auto 0;
+    display: block;
+}
+.card-body {
+    padding: 0.3rem;
+}
+
+.text-Title {
+    font-size: 12px;
+}
+
+.alineado-Texto {
+    margin-left: 120px;
+}
+
+.cont-Alineado{
+    margin-left: 100px;
+    margin-right: 100px;
+}
