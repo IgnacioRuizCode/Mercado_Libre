@@ -72,7 +72,6 @@ body {
 .celeste {
     color: #3483fa;
 }
-
 .carta1 {
     position: relative;
     max-width: 100%;
@@ -122,4 +121,126 @@ body {
     object-fit: cover;
     width: 100%;
     height: 200px;
+}
+.beneficios{
+    max-width:1200px;
+    margin:60px auto;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:50px 20px;
+    border-radius:8px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+.item{
+    flex:1;
+    text-align:center;
+    padding:0 35px;
+}
+
+.item:not(:last-child){
+    border-right:1px solid #e5e5e5;
+}
+
+.icono{
+    font-size:50px;
+    color:#3483fa;
+    margin-bottom:25px;
+}
+.item h2{
+    font-size:32px;
+    font-weight:300;
+    color:#333;
+    margin-bottom:18px;
+}
+.item p{
+    font-size:18px;
+    color:#666;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+.item a{
+    text-decoration:none;
+    color:#3483fa;
+    font-size:18px;
+}
+.item a:hover{
+    text-decoration:underline;
+}
+.contenedor{
+    width:90%;
+    max-width:1400px;
+    margin:30px auto;
+}
+
+h2{
+    font-size:40px;
+    margin-bottom:30px;
+    color:#222;
+}
+
+h3{
+    font-size:32px;
+    margin:60px 0 30px;
+    color:#222;
+}
+
+/* Productos */
+
+.productos{
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+    line-height:2;
+}
+
+.productos li{
+    display:flex;
+    align-items:center;
+}
+
+.productos li:not(:last-child)::after{
+    content:"-";
+    margin:0 12px;
+    color:#999;
+}
+
+.productos a{
+    text-decoration:none;
+    color:#666;
+    font-size:20px;
+}
+
+.productos a:hover{
+    color:#3483fa;
+}
+
+/* Letras */
+
+.letras{
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+}
+
+.letras li{
+    display:flex;
+    align-items:center;
+}
+
+.letras li:not(:last-child)::after{
+    content:"-";
+    margin:0 12px;
+    color:#999;
+}
+
+.letras a{
+    text-decoration:none;
+    color:#666;
+    font-size:22px;
+}
+
+.letras a:hover{
+    color:#3483fa;
 }
