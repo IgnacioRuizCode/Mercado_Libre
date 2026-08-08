@@ -1,3 +1,14 @@
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --blanco: #f5f0ff;
+  --morado: #6c2bd9;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -35,6 +46,10 @@
 
 body { 
     background-color: #ebebeb;;
+}
+
+.body-producto {
+  background-color: white;
 }
 
 .text h4{
@@ -277,4 +292,27 @@ h3{
 body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+}
+
+/* Detalle del producto */
+.thumb-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.thumb-img.active,
+.thumb-img:hover {
+  border-color: #3483fa;
+}
+
+.carousel-producto .carousel-item img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  max-width: 400px;
 }
